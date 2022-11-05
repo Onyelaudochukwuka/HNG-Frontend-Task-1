@@ -151,6 +151,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={!checked}
+            id="btn__submit"
             className={`${checked ? `bg-button cursor-pointer` : `bg-button-disabled cursor-not-allowed`} transition-colors duration-700 ease-in text-white py-3 rounded-lg`}>
             Send message
           </button>
