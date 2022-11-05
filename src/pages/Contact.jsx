@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Footer } from "../components";
 import { isEmail } from "../utils/function";
 const Contact = () => {
   const [messageError, setMessageError] = useState(false);
@@ -155,6 +156,7 @@ const Contact = () => {
           </button>
         </form>
       </main>
+      <Footer />
     </section>
   );
 };
